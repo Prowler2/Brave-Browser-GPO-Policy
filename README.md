@@ -14,4 +14,4 @@ On Windows, the location of Brave registry policy is:
 `HKLM\SOFTWARE\Policies\Chromium`
 
 ###### Brave release 1.3 and newer
-`HKLM\SOFTWARE\Policies\BraveSoftware\Brav
+`HKLM\SOFTWARE\Policies\BraveSoftware\Brave`
