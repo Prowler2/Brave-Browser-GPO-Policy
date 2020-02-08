@@ -29,3 +29,7 @@ Manually added Brave registry keys for release 1.3 and newer
 
 Open the Brave Policy page. Brave has picked up and applied the three policies
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/Brave%20Policy.PNG" alt="Brave Policy" />
+
+On the Brave Browser menu, we can see that TOR has been removed.
+<img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/Brave%20Menu.PNG" alt="Brave Menu" />
+
