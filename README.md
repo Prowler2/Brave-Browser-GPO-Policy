@@ -15,3 +15,5 @@ On Windows, the location of Brave registry policy is:
 
 ###### Brave release 1.3 and newer
 `HKLM\SOFTWARE\Policies\BraveSoftware\Brave`
+
+I used the source Google Chrome Policy Templates and modified them to point to the Brave 1.3 registry area. Additionally, I added some Brave Specific policy for disabling TOR that most enterprises would want. 
