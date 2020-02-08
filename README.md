@@ -10,7 +10,7 @@ In a lab environment I was able to modify the original Google Chrome policy temp
 
 As of release v1.3 (Feb 2020), Brave now has its own dedicated policy space in the registry separate from Chromium and Chrome.
 
-On Windows, the location of Brave registry policy is:
+On Windows, the location of Brave in the registry is:
 
  ###### Brave release 1.2 and older
 `HKLM\SOFTWARE\Policies\Chromium`
@@ -23,3 +23,4 @@ https://www.chromium.org/administrators/policy-templates
 
 Details about each policy in the Chrome source templates can be found at the link below
 https://cloud.google.com/docs/chrome-enterprise/policies/
+
