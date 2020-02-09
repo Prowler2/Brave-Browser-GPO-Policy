@@ -1,16 +1,16 @@
 ### Brave Browser GPO Policy Templates
 
-I searched far and wide for GPO policy templates that would support managing Brave Browser in an Enterprise environment over the last six months with little success.
+I searched far and wide for GPO policy templates that would support managing Brave Browser in an Enterprise environment over the last few months with little success.
 
-There were a few github posts that would reveal the location of single registry keys for tweaks that had to be manually applied, but often the location of those registry keys either followed the Chromium browser or Chrome browser standards and there was little consistency or automation options that could be leveraged in an enterprise.
+I did find a few github posts that would reveal the location of single registry keys for tweaks that had to be manually applied, but often the location of those registry keys either followed the Chromium browser or Chrome browser standards and there was little consistency or automation options that could be leveraged in an enterprise.
 
-One post in particular mentioned that since Brave Browser is based upon Chromium, that it would recognize and use the same registry policy keys. 
+One post in particular mentioned that since Brave Browser is based upon Chromium, that it would recognize and use the same registry policy keys. It was time to find out for myself.
 
-In a lab environment I was able to modify the original Google Chrome policy templates and successfully make them work in this scenario. Unfortunately you could only set one policy for all Chromium browsers on a given system. There were also some specific registry keys (Disabling TOR) that only applied to Brave and had to be applied in a specific place. At best this was a fragmented and unrefined solution. 
+In a lab environment I modified the original Google Chrome policy templates and successfully had them apply policy to Brave. Unfortunately you could only set one policy for all Chromium browsers on a given system. There were also some specific registry keys (Disabling TOR) that only applied to Brave and had to be applied in a specific place. At best this was a fragmented and unrefined solution. 
 
 As of release v1.3 (Feb 2020), Brave now has its own dedicated policy space in the registry separate from Chromium and Chrome.
 
-On Windows, the location of Brave in the registry is:
+On Windows, the location of Brave policy in the registry is:
 
  ###### Brave release 1.2 and older
 `HKLM\SOFTWARE\Policies\Chromium`
