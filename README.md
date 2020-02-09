@@ -24,13 +24,13 @@ https://www.chromium.org/administrators/policy-templates
 Details about each policy available in the Chrome source templates can be found at the link below
 https://cloud.google.com/docs/chrome-enterprise/policies/
 
-Manually added Brave registry keys for release 1.3 and newer
+Brave policy registry keys that were set by the admin template for release 1.3 and newer
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveRegistry.PNG" alt="Brave Registry" />
 
-Open the Brave Policy page. Brave has picked up and applied the three policies
+Brave policy paage has picked up and applied the policies.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BravePolicy.PNG" alt="Brave Policy" />
 
-On the Brave Browser menu, TOR has been removed.
+On the Brave Browser menu, TOR and In Private Browsing has been removed.
 
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveMenu.PNG" alt="Brave Menu" />
 
