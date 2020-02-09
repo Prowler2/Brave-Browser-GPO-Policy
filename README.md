@@ -28,7 +28,7 @@ Modified Admin Policy Template added to the PolicyDefinitions directory on a win
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveGPedit.PNG" alt="Brave GPO" />
 
 Brave release 1.3 policy registry keys that were set by the modified admin template.
-<img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveRegistry.PNG" alt="Brave Registry" />
+<img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveRegistry2.PNG" alt="Brave Registry" />
 
 Brave policy page has detected and applied the policies.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BravePolicy.PNG" alt="Brave Policy" />
