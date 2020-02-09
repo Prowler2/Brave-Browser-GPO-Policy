@@ -30,7 +30,7 @@ Brave policy registry keys that were set by the admin template for release 1.3 a
 Brave policy paage has picked up and applied the policies.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BravePolicy.PNG" alt="Brave Policy" />
 
-On the Brave Browser menu, TOR and In Private Browsing has been removed.
+On the Brave Browser menu, TOR and In Private Browsing have been removed. Note that Brave requires a restart of the browser for the TOR policy to take effect from my experience.
 
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveMenu.PNG" alt="Brave Menu" />
 
