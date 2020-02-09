@@ -24,6 +24,9 @@ https://www.chromium.org/administrators/policy-templates
 Details about each policy available in the Chrome source templates can be found at the link below
 https://cloud.google.com/docs/chrome-enterprise/policies/
 
+Modified Admin Policy Template added to the PolicyDefinitions directory on a desktop machine. 
+<img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveGPedit.PNG" alt="Brave GPO" />
+
 Brave release 1.3 policy registry keys that were set by the modified admin template.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveRegistry.PNG" alt="Brave Registry" />
 
