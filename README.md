@@ -39,7 +39,7 @@ On the Brave Browser menu, TOR and In Private Browsing have been removed as set 
 On the Brave settings menu, notice that the ability to clear history is now managed.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveHistory.PNG" alt="Brave History" />
 
-#### Warning!
+#### **Warning!**
 **Please note I am not responsible for anything that may happen to your systems when using these templates! It is your responsibility to thoroughly test in an isolated environment before deploying them!**
 
 Todo: 
