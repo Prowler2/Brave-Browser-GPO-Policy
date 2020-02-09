@@ -2,7 +2,7 @@
 
 I searched far and wide for GPO policy templates that would support managing Brave Browser in an Enterprise environment over the last few months with little success.
 
-I did find a few github posts that revealed the location of single registry keys tweaks that had to be manually applied, but often the location of those registry keys either followed the Chromium browser or Chrome browser standards and there was little consistency or automation options that could be leveraged in an enterprise.
+I did find a few github posts that revealed the location of single registry key tweaks that had to be manually applied, but often the location of those registry keys either followed the Chromium browser or Chrome browser standards and there was little consistency or automation options that could be leveraged in an enterprise.
 
 One post in particular mentioned that since Brave Browser is based upon Chromium, that it would recognize and use the same registry policy keys. It was time to find out for myself.
 
