@@ -39,3 +39,8 @@ On the Brave Browser menu, TOR and In Private Browsing have been removed as set 
 
 On the Brave settings menu, notice that the ability to clear history is now managed.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveHistory.PNG" alt="Brave History" />
+
+Todo: 
+1. Test and see which of the 300+ Chromium policies Brave still respects. This could take some time. 
+2. Test the policy as applied to clients from a domain. 
+3. Make a GPO WMI filter to only apply policy if Brave is installed on the client machine.
