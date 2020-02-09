@@ -18,7 +18,7 @@ On Windows, the location of Brave policy in the registry is:
 ###### Brave release 1.3 and newer
 `HKLM\SOFTWARE\Policies\BraveSoftware\Brave`
 
-I used the source Google Chrome Policy Templates v79.0.3945.130 and modified them to write to the Brave release 1.3 registry location instead. Additionally, I added some Brave specific policy for enabling/ disabling TOR that most enterprises would require to even consider deploying it.
+I used the source Google Chrome Policy Templates v79.0.3945.130 and modified them to write to the Brave release 1.3 registry location instead. Additionally, I added some Brave specific policy for enabling/ disabling TOR that most enterprises would require to even consider deploying it.   
 https://www.chromium.org/administrators/policy-templates
 
 Details about each policy available in the Chrome source templates can be found at the link below
@@ -33,8 +33,7 @@ Brave release 1.3 policy registry keys that were set by the modified admin templ
 Brave policy page has detected and applied the policies.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BravePolicy.PNG" alt="Brave Policy" />
 
-On the Brave Browser menu, TOR and In Private Browsing have been removed as set by policy. Note that Brave requires a restart of the browser for the TOR policy to take effect from my experience.
-
+On the Brave Browser menu, TOR and In Private Browsing have been removed as set by policy. Note that Brave requires a restart of the browser for the TOR policy to take effect from my experience.   
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveMenu.PNG" alt="Brave Menu" />
 
 On the Brave settings menu, notice that the ability to clear history is now managed.
