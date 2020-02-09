@@ -40,7 +40,7 @@ On the Brave settings menu, notice that the ability to clear history is now mana
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveHistory.PNG" alt="Brave History" />
 
 #### **Warning!**
-**Please note I am not responsible for anything that may happen to your systems when using these templates! It is your responsibility to thoroughly test in an isolated environment before deploying them!**
+**I am not responsible for anything that may happen to your systems when using these templates! It is your responsibility to thoroughly test in an isolated environment and understand what they do before deploying them!**
 
 Todo: 
 1. Test and see which of the 300+ Chromium policies Brave still respects. This could take some time. 
