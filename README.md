@@ -36,7 +36,7 @@ Brave policy page has detected and applied the policies.
 On the Brave Browser menu, TOR and In Private Browsing have been removed as set by policy. Note that Brave requires a restart of the browser for the TOR policy to take effect from my experience.   
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveMenu.PNG" alt="Brave Menu" />
 
-On the Brave settings menu, notice that the ability to clear history is now managed.
+On the Brave settings menu, notice that the ability to clear history is now managed (greyed out).
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveHistory.PNG" alt="Brave History" />
 
 #### **Warning!**
