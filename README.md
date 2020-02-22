@@ -46,4 +46,4 @@ Todo:
 1. Test and see which of the 300+ Chromium policies Brave still respects. This could take some time. 
 2. Test the policy as applied to clients from a domain. 
 3. ~~Make a GPO WMI filter to only apply policy if Brave is installed on the client machine.~~
-4. Update admin templates to the latest Chromium version available. (v80.0.3987.87 as of 8 Feb 2020)
+4. ~~Update admin templates to the latest Chromium version available. (v80.0.3987.116 as of 22 Feb 2020)~~
