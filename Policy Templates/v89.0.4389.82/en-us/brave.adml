@@ -3885,9 +3885,7 @@ insecure origins should not apply</listBox>
           <label>Restrict the range of local UDP ports used by WebRTC</label>
         </textBox>
       </presentation>
-      <presentation id="TorDisabled">
-        <listBox refId="URLBlocklistDesc">Block access to a list of URLs</listBox>
-      </presentation>
+      <presentation id="TorDisabled" />
     </presentationTable>
   </resources>
 </policyDefinitionResources>
