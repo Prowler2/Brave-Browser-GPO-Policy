@@ -10,7 +10,7 @@ On Windows, the location of Brave policy in the registry is:
 ###### Brave release 1.3 and newer
 `HKLM\SOFTWARE\Policies\BraveSoftware\Brave`
 
-I used the source Google Chrome policy templates and modified them to use the Brave release 1.3 and newer registry location instead. Additionally, I added some Brave specific policy for enabling/ disabling TOR and IPFS that most enterprises would require to even consider deploying it.   
+I used the source Google Chrome policy templates and modified them to use the Brave release 1.3 and newer registry location instead. Additionally, I added some Brave specific policy for enabling/ disabling TOR and IPFS that most enterprises would require to even consider deploying it. All Brave specific policies are located under the folder 'Brave Specific Policies'
 https://www.chromium.org/administrators/policy-templates
 
 Details about each policy available in the Chrome source templates can be found at the link below
@@ -18,10 +18,10 @@ https://cloud.google.com/docs/chrome-enterprise/policies/
 
 I created a Brave specific WMI filter for use with group policy. When this filter is attached to a GPO, it only applies the policy to clients where the WMI filter evaluates as true. (Clients where Brave Browser is installed). The filter and query were tuned and tested against client targets using the wmi filter validation tool here: http://sdmsoftware.com/gpoguy/free-tools/library/wmi-filter-validation-utility/
 
-Modified admin policy template added to the PolicyDefinitions directory on a Windows machine. Policy namespace does not conflict with Chrome or other Chromium browsers.
+Modified source policy template added to the PolicyDefinitions directory on a Windows machine. Policy namespace does not conflict with Chrome or other Chromium browsers.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveGPedit.PNG" alt="Brave GPO" />
 
-Brave release 1.3 policy registry keys that were set by the modified admin template.
+Brave policy registry keys that were set by the modified admin template.
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveRegistry2.PNG" alt="Brave Registry" />
 
 Brave policy page has detected and applied the policies.
