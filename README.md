@@ -13,7 +13,7 @@ https://cloud.google.com/docs/chrome-enterprise/policies/
 I created a Brave specific WMI filter for use with group policy. When this filter is attached to a GPO, it only applies the policy to clients where the WMI filter evaluates as true. (Clients where Brave Browser is installed). The filter and query were tuned and tested against client targets using the wmi filter validation tool here: 
 http://sdmsoftware.com/gpoguy/free-tools/library/wmi-filter-validation-utility/
 
-Modified source policy template added to the PolicyDefinitions directory on a Windows machine. Policy namespace does not conflict with Chrome or other Chromium browsers.
+Modified source policy template added to the PolicyDefinitions directory on a Windows machine. Policy namespace does not conflict with Chrome or other Chromium browsers.  
 <img src="https://github.com/Prowler2/Brave-Browser-GPO-Policy/blob/master/Images/BraveGPedit.PNG" alt="Brave GPO" />
 
 Brave policy registry keys that were set by the modified admin template.
